@@ -6,3 +6,14 @@ img {
 #image{
     border-radius: 50%;
   }
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.text-center {
+    text-align: center!important;
+}
