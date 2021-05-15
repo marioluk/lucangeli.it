@@ -1,19 +1,22 @@
-img {
-    max-width: 100%;
-    height: auto;    
-  }
-
-#image{
-    border-radius: 50%;
-  }
-
-.jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #e9ecef;
-    border-radius: .3rem;
+.header {
+  padding: 16px;
+  text-align: center;
+  background: #07002f;
+  color: white;
+  font-size: 16px;
+}
+.nav{
+  color: aliceblue;
 }
 
-.text-center {
-    text-align: center!important;
+.article{
+  text-align: center;
+}
+
+footer{
+  padding: 16px;
+  text-align: center;
+  background: #07002f;
+  color: white;
+  font-size: 16px;
 }
