@@ -31,7 +31,6 @@ article{
 }
 
 footer{
-
   width: 100%;
   padding: 20px;
   padding-right: 15px;
@@ -53,7 +52,7 @@ section {
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
-  background-color: rgb(215, 216, 216);
+  background-color: #e9ecef;
 }
 
 h1 {
@@ -75,14 +74,14 @@ h1 {
 }
 
 .button2 {
-  background-color: #212529; 
-  color: black; 
-  border: 2px solid #008CBA;
+  background-color: #14102a; 
+  color: #14102a; 
+  border: 2px solid #344f58;
 }
 
 .button2:hover {
-  background-color: #008CBA;
-  color: white;
+  background-color: #344f58;
+  color: #14102a;
 }
 
 
