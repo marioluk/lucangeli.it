@@ -18,12 +18,12 @@ header {
   margin-left: auto;
   margin-bottom: -20px;
   text-align: center;
-  background: #14102a;
-  color: white;
+  background: #ffc40181;
+  color: rgb(0, 0, 0);
 }
 
 nav{
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 article{
@@ -39,8 +39,8 @@ footer{
   margin-left: auto;
   margin-bottom: 20px;
   text-align: center;
-  background: #14102a;
-  color: white;
+  background: #ffc40181;
+  color: black;
 }
 
 section {
@@ -60,8 +60,8 @@ h1 {
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
+  background-color: #e9ecef;
+  border: 2px solid #ffc40181;
   color: rgb(0, 0, 0);
   padding: 16px 32px;
   text-align: center;
@@ -73,36 +73,30 @@ h1 {
   cursor: pointer;
 }
 
-.button2 {
-  background-color: #14102a; 
-  color: #14102a; 
-  border: 2px solid #344f58;
-}
-
-.button2:hover {
-  background-color: #344f58;
+.button:hover {
+  background-color: #ffc40181;
   color: #14102a;
 }
 
 
 a:link {
   text-decoration: none;
-  color: #ffffff;
+  color: black;
 }
 
 a:visited {
   text-decoration: none;
-  color: #ffffff;
+  color: black;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #ffffff;
+  color: black;
 }
 
 a:active {
   text-decoration: underline;
-  color: #ffffff;
+  color: black;
 }
 
 img {
