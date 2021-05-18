@@ -1,4 +1,4 @@
-body {
+#main{
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: 1rem;
@@ -21,8 +21,6 @@ header {
   background: #ffc40181;
   color: rgb(0, 0, 0);
 }
-
-#main
 
 nav{
   color: black;
@@ -60,7 +58,7 @@ section {
 #survey-form{
 
   width: 50%;
-text-align: left;
+  text-align: left;
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 10px;
@@ -73,7 +71,7 @@ text-align: left;
   border-style: solid;
 }
 
-h1 {
+#title{
   font-size: 30px;
 }
 
@@ -116,13 +114,22 @@ a:active {
   color: black;
 }
 
-img {
-  max-width: 300px;
+#img-div {
+  align-items: center;
+  
+}
+
+#image {
+  max-width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 5%;
   border-color: #ffc40181;
   border-style: solid;
   color: #ffc40181;
+}
+
+#img-caption{
+  font-style: italic;
 }
 
 #div_center {
@@ -135,4 +142,23 @@ img {
 
 #div_right{
   float: right;
+}
+
+#tribute-info{
+  width: 70%;
+  text-align: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color: #e9ecef;
+  border-color: #ffc40181;
+  border-style: solid;
+}
+
+#tribute-link{
+color: red;
 }
