@@ -190,3 +190,9 @@ color: red;
     /*height: 100vh;*/
   }
 /*}*/
+@media screen and (max-width: 600px){
+#nav-bar{
+  align-items: top;
+}
+}
+#
