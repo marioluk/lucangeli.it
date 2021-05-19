@@ -31,14 +31,10 @@ header {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: auto;
   text-align: center;
   background: #ffc40181;
   color: rgb(0, 0, 0);
-  
- 
-  top: 0;
-  left: 0;
 }
 
 nav{
@@ -47,6 +43,7 @@ nav{
 
 article{
   text-align: center;
+  margin-top: 65px;
 }
 
 footer{
@@ -70,8 +67,11 @@ section {
   padding-bottom: 10px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: #e9ecef;
+}
+#section_top{
+  margin-top: 65px;
 }
 
 #survey-form{
@@ -182,13 +182,11 @@ a:active {
 color: red;
 }
 
-@media screen and (max-width: 600px){
+/*@media screen and (max-width: 600px){*/
   #welcome-section{
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 65px;
     display: block;
-    height: 100vh;
+    /*height: 100vh;*/
   }
-}
-
-#main-doc 
+/*}*/
