@@ -75,7 +75,6 @@ section {
 }
 
 #survey-form{
-
   width: 50%;
   text-align: left;
   padding-right: 15px;
@@ -137,11 +136,17 @@ a:active {
   align-items: center;
   
 }
+.image{
 
-#image {
-  max-width: 100%;
+  max-width: 200px;
   height: auto;
-  border-radius: 5%;
+  border-radius: 50%;
+  border-color: #ffc40181;
+  border-style: solid;
+  color: #ffc40181;
+}
+#image {
+  height: 400px;
   border-color: #ffc40181;
   border-style: solid;
   color: #ffc40181;
@@ -195,4 +200,4 @@ color: red;
   align-items: top;
 }
 }
-#
+
