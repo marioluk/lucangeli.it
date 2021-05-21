@@ -21,8 +21,8 @@ body{
   background-color: #fff;
 }
 
-header {
-  /*position: fixed;*/
+/*header {
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -35,17 +35,18 @@ header {
   text-align: center;
   background: #ffc40181;
   color: rgb(0, 0, 0);
-}
+}*/
 
 nav{
-  color: black;
+  text-align: center;
+  /*color: black;*/
 }
 
 article{
   text-align: center;
-  margin-top: 65px;
+  margin-top: 0px;
 }
-
+/*
 footer{
   width: 100%;
   padding: 20px;
@@ -58,6 +59,7 @@ footer{
   background: #ffc40181;
   color: black;
 }
+*/
 
 section {
   width: 100%;
@@ -114,22 +116,22 @@ section {
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: #9b9d9e;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: #9b9d9e;
 }
 
 a:hover {
   text-decoration: underline;
-  color: black;
+  color: #9b9d9e;
 }
 
 a:active {
   text-decoration: underline;
-  color: black;
+  color: #9b9d9e;
 }
 
 #img-div {
@@ -195,9 +197,9 @@ color: red;
     /*height: 100vh;*/
   }
 /*}*/
-@media screen and (max-width: 600px){
+/*@media screen and (max-width: 600px){
 #nav-bar{
   align-items: top;
 }
-}
+}*/
 
